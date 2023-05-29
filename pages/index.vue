@@ -7,6 +7,8 @@
       <option value="dark">Dark</option>
       <option value="sepia">Sepia</option>
     </select>
+    <USelect :options="['United States', 'Canada', 'Mexico']" />
+
   </div>
 </template>
 
