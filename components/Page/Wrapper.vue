@@ -1,12 +1,10 @@
 <script setup>
-definePageMeta({
-  documentDriven: false,
-})
+
 </script>
 
 <template>
-  <div>
-    about
+  <div class="max-w-6xl mx-auto px-4 mt-8">
+    <slot />
   </div>
 </template>
 
