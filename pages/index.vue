@@ -1,6 +1,6 @@
 <template>
-    <div>
-  index
+    <div class="bg-blue-800 dark:bg-slate-800">
+  <p class="text-red-500">Index</p>
     </div>
 </template>
 
