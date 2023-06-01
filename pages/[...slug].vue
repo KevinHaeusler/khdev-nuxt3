@@ -1,15 +1,15 @@
-<script setup>
+<script setup lang="ts">
 
 </script>
 
 <template>
   <PageWrapper>
-    <main class="prose">
+    <main class="prose max-w-full">
       <ContentDoc />
     </main>
   </PageWrapper>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

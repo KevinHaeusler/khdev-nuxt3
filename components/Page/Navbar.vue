@@ -9,7 +9,7 @@
         <div class="flex items-center">
           <!-- Logo or brand -->
 
-          <NuxtLink to="href=&quot;/&quot;" class="text-gray-900 dark:text-white text-lg font-semibold">
+          <NuxtLink to="/" class="text-gray-900 dark:text-white text-lg font-semibold">
             KHDev
           </NuxtLink>
         </div>

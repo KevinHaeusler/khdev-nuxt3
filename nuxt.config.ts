@@ -1,6 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxthq/ui'],
+  modules: ['@nuxt/content', '@nuxthq/ui', 'dayjs-nuxt'],
+  dayjs: {
+    locales: ['en', 'fr'],
+    plugins: ['relativeTime', 'utc', 'timezone', 'localizedFormat'],
+    defaultLocale: 'en',
+    defaultTimezone: 'Europe/Zurich',
+  },
   content: {
     documentDriven: true,
     highlight: {
